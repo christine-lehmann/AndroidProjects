@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MTLabE_CionChristine</string>
+    <string name="cm">CM LOAN BANK</string>
+    <string name="form">Loan Application Form</string>
+    <string name="fn">First Name</string>
+    <string name="ln">Last Name</string>
+    <string name="age">Age</string>
+    <string name="add">Address</string>
+
+    <string name="salary">What is your current salary?</string>
+
+    <string name="radioone">Php 1,000 package at 8.0% interest 1,000.00</string>
+    <string name="radiotwo">Php 5,000 package at 11.5% interest 5,000.00</string>
+    <string name="radiothree">Php10,000 package at 15.0% interest 10,000.00</string>
+
+    <string name="borrow">How much do you want to borrow?</string>
+
+    <string name="btnOK">SUBMIT</string>
+    <string name="btnCLR">RESET</string>
+</resources>

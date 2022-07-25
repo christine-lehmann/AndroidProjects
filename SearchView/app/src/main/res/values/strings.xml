@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SearchView</string>
+
+    <!--Send Money Strings-->
+    <string name="sendMoney">Send Money</string>
+    <string name="accNumber">Account Number</string>
+    <string name="amount">Amount</string>
+    <string name="message">Message (optional)</string>
+
+
+    <!--Send Money Confirmation Strings-->
+    <string name="confirm">Confirmation</string>
+    <string name="recipientNum">+639090909090</string>
+    <string name="sendMoneyAmount">PHP 200.00</string>
+    <string name="transferFee">Transfer Fee PHP 0.00</string>
+    <string name="accountType">Send Money</string>
+    <string name="sendMoneyMessage">Message:</string>
+    <string name="sendMoneyInfo">Please ensure all information is correct.\nClicking \"SEND\" button means that you have validated all information and confirms it \nto be correct.</string>
+</resources>

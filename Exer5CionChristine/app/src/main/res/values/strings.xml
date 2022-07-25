@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Exer5CionChristine</string>
+    <string name="si">Student Information</string>
+    <string name="fn">Full Name</string>
+    <string name="sn">Student Number</string>
+    <string name="cp">Course/Program</string>
+    <string name="mg">Midterm Grade</string>
+    <string name="mww">Written Works</string>
+    <string name="mww1">Written Work 1</string>
+    <string name="mww2">Written Work 2</string>
+    <string name="mww3">Written Work 3</string>
+    <string name="mww4">Written Work 4</string>
+    <string name="mww5">Written Work 5</string>
+    <string name="mpt">Performance Tasks</string>
+    <string name="mpt1">Performance Tasks 1</string>
+    <string name="mpt2">Performance Tasks 2</string>
+    <string name="mpt3">Performance Tasks 3</string>
+    <string name="mpt4">Performance Tasks 4</string>
+    <string name="mpt5">Performance Tasks 5</string>
+    <string name="me">Term Assessment</string>
+    <string name="mtg">Midterm Grade</string>
+
+    <string name="fg">Final Term Grade</string>
+    <string name="fww">Written Works</string>
+    <string name="fww1">Written Work 1</string>
+    <string name="fww2">Written Work 2</string>
+    <string name="fww3">Written Work 3</string>
+    <string name="fww4">Written Work 4</string>
+    <string name="fww5">Written Work 5</string>
+    <string name="fpt">Performance Tasks</string>
+    <string name="fpt1">Performance Tasks 1</string>
+    <string name="fpt2">Performance Tasks 2</string>
+    <string name="fpt3">Performance Tasks 3</string>
+    <string name="fpt4">Performance Tasks 4</string>
+    <string name="fpt5">Performance Tasks 5</string>
+    <string name="fe">Term Assessment</string>
+    <string name="ftg">Finalterm Grade</string>
+    <string name="fsg">Final Subject Grade</string>
+    <string name="ged">Grades Equivalent</string>
+    <string name="desc">Description</string>
+
+    <string name="btnOK">COMPUTE</string>
+    <string name="btnCLR">CLEAR</string>
+    <string name="btnSAVE">SAVE</string>
+    <string name="btnOTP">Get OTP</string>
+    <string name="btnVER">Verify and Signin</string>
+</resources>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/inputTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:layout_gravity="end"
+        android:paddingRight="30dp"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:text=""
+        android:background="#000000"
+        android:gravity="center_vertical"
+        android:textAlignment="textEnd"
+        android:maxLength="9"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/outputTextView"
+        android:layout_width="match_parent"
+        android:paddingRight="30dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textColor="#FFA500"
+        android:text=""
+        android:textAlignment="textEnd"
+        android:layout_gravity="end"
+        android:textSize="45sp"
+        tools:ignore="RtlCompat" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnClr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="C"
+            android:background="@null"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:onClick="onClear"
+            tools:ignore="NestedWeights,OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnPara"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="()"
+            android:background="@null"
+            android:textColor="#FFA500"
+            android:textSize="30sp"
+            android:onClick="onPara"
+            tools:ignore="OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnPower"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="^"
+            android:background="@null"
+            android:textColor="#FFA500"
+            android:textSize="30sp"
+            android:onClick="onPower"
+            tools:ignore="OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnDivide"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="÷"
+            android:background="@null"
+            android:textColor="#FFA500"
+            android:textSize="30sp"
+            android:onClick="onDivide"
+            tools:ignore="OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSeven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="7"
+            android:background="@null"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:onClick="onSeven"
+            tools:ignore="NestedWeights,OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnEight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="8"
+            android:background="@null"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:onClick="onEight"
+            tools:ignore="OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnNine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="9"
+            android:background="@null"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:onClick="onNine"
+            tools:ignore="OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnMultiply"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="×"
+            android:background="@null"
+            android:textColor="#FFA500"
+            android:textSize="30sp"
+            android:onClick="onMultiply"
+            tools:ignore="OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnFour"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="4"
+            android:background="@null"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:onClick="onFour"
+            tools:ignore="NestedWeights,OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnFive"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="5"
+            android:background="@null"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:onClick="onFive"
+            tools:ignore="OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnSix"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="6"
+            android:background="@null"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:onClick="onSix"
+            tools:ignore="OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnSubtract"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="-"
+            android:background="@null"
+            android:textColor="#FFA500"
+            android:textSize="30sp"
+            android:onClick="onSubtract"
+            tools:ignore="OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOne"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1"
+            android:background="@null"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:onClick="onOne"
+            tools:ignore="NestedWeights,OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnTwo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="2"
+            android:background="@null"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:onClick="onTwo"
+            tools:ignore="OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnThree"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="3"
+            android:background="@null"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:onClick="onThree"
+            tools:ignore="OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="+"
+            android:background="@null"
+            android:textColor="#FFA500"
+            android:textSize="30sp"
+            android:onClick="onAdd"
+            tools:ignore="OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnZero"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:background="@null"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:onClick="onZero"
+            tools:ignore="OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnPoint"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:text="."
+            android:background="@null"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:onClick="onPoint"
+            tools:ignore="OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnEqual"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="="
+            android:backgroundTint="#FFA500"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:onClick="onEqual"
+            tools:ignore="NestedWeights,OnClick,UsingOnClickInXml"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>

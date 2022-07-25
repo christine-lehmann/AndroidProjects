@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "139939045909",
+    "firebase_url": "https://exer4cionchristine-default-rtdb.firebaseio.com",
+    "project_id": "exer4cionchristine",
+    "storage_bucket": "exer4cionchristine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139939045909:android:8e46a3e5269a9210a1641c",
+        "android_client_info": {
+          "package_name": "com.example.exer4cionchristine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139939045909-i76t192h5rka5rdt7bj8tom4g7vmbo03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxwp3CVhGlqCNXUEIo2trn-P96jS0-MoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139939045909-i76t192h5rka5rdt7bj8tom4g7vmbo03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

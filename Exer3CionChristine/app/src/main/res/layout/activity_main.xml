@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <!--MID TERM-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:ignore="UseCompoundDrawables">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="@string/mg"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <!--Written Works-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="@string/mww"
+            android:textColor="@color/black"
+            android:layout_gravity="left"
+            android:textSize="15dp"
+            android:textStyle="italic"></TextView>
+
+        <EditText
+            android:id="@+id/mww1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/mww1"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/mww2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/mww2"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/mww3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/mww3"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/mww4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/mww4"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/mww5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/mww5"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <!--Performance Task-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="@string/mpt"
+            android:layout_gravity="left"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"></TextView>
+
+        <EditText
+            android:id="@+id/mpt1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/mpt1"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/mpt2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/mpt2"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/mpt3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/mpt3"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/mpt4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/mpt4"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/mpt5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/mpt5"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <!--Midterm Exam-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="@string/me"
+            android:layout_gravity="left"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"></TextView>
+
+        <EditText
+            android:id="@+id/me"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Midterm Exam"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+
+        <!--Midterm Average-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="@string/mtg"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/mta"
+                android:layout_width="219dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColorHint="#757575"
+                tools:ignore="TouchTargetSizeCheck">
+
+            </EditText>
+
+        </LinearLayout>
+
+
+        <!--FINAL TERM-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="@string/fg"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+        </TextView>
+
+        <!--Written Works-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="@string/fww"
+            android:layout_gravity="left"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"></TextView>
+
+        <EditText
+            android:id="@+id/fww1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/fww1"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/fww2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/fww2"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/fww3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/fww3"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/fww4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/fww4"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/fww5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/fww5"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <!--Performance Task-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="@string/fpt"
+            android:layout_gravity="left"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"></TextView>
+
+        <EditText
+            android:id="@+id/fpt1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/fpt1"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/fpt2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/fpt2"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/fpt3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/fpt3"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/fpt4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/fpt4"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/fpt5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/fpt5"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <!--Finalterm Exam-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="@string/fe"
+            android:layout_gravity="left"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"></TextView>
+
+        <EditText
+            android:id="@+id/fe"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Final Exam"
+            android:textAlignment="center"
+            android:textColorHint="#757575"
+            android:textSize="15dp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+
+        <!--Finalterm Average-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="@string/ftg"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/fta"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColorHint="#757575"
+                tools:ignore="TouchTargetSizeCheck">
+
+            </EditText>
+
+        </LinearLayout>
+
+        <!--FINAL SUBJECT GRADE-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:gravity="left">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="@string/fsg"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/fsg"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColorHint="#757575"
+                tools:ignore="TouchTargetSizeCheck">
+
+            </EditText>
+
+        </LinearLayout>
+
+        <!--GRADE EQUIVALENT DESCRIPTIVE-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:gravity="left">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="@string/ged"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/ged"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColorHint="#757575"
+                tools:ignore="TouchTargetSizeCheck">
+
+            </EditText>
+
+        </LinearLayout>
+
+        <!--BUTTONS-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnOK"
+                android:text="@string/btnOK"
+                android:textColor="@color/title"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button1">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btnCLR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button2"
+                android:textColor="@color/title"
+                android:layout_marginLeft="10dp"
+                android:text="@string/btnCLR">
+
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
